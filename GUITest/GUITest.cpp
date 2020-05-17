@@ -1,6 +1,7 @@
 // GUITest.cpp : Defines the entry point for the application.
 //
-#include "Direct2DHelloWorld.h"
+//#include "Direct2DHelloWorld.h"
+#include "SimpleD2DApplication.h"
 
 //
 // Provides the entry point to the application.
@@ -19,12 +20,13 @@ int WINAPI WinMain(
 	if (SUCCEEDED(CoInitialize(NULL)))
 	{
 		{
-			DemoApp app;
+			//DemoApp app;
+			SimpleD2DApp app;
 
-			if (SUCCEEDED(app.Initialize()))
-			{
-				app.RunMessageLoop();
-			}
+				if (SUCCEEDED(app.Initialize()))
+				{
+					app.RunMessageLoop();
+				}
 		}
 		CoUninitialize();
 	}
