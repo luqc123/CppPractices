@@ -154,6 +154,7 @@
     <ClCompile Include="CommonTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="priority_queue_test.hpp" />
     <ClInclude Include="stl_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

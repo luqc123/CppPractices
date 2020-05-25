@@ -1,6 +1,8 @@
-#include "stl_header.h"
+#include "priority_queue_test.hpp"
+
+using namespace priority_queue_test;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	TestCase();
 }

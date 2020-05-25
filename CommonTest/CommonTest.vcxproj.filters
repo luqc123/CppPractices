@@ -23,5 +23,8 @@
     <ClInclude Include="stl_header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="priority_queue_test.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
