@@ -2,6 +2,7 @@
 #define STL_HEADER_H
 
 //container
+#include <array>
 #include <vector>
 #include <deque>
 #include <forward_list> //single list

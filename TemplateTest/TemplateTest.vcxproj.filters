@@ -35,5 +35,17 @@
     <ClInclude Include="policy_test.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="fast_delegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fast_delegate_build.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
