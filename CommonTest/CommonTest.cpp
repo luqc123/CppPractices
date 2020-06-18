@@ -1,10 +1,7 @@
-#include "priority_queue_test.hpp"
-
-using namespace priority_queue_test;
-using namespace std;
+#include "stl_header.h"
+#include "boost_test.hpp"
 
 int main()
 {
-	//TestCase();
-	array<
+	boost_test::case1();
 }

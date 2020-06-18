@@ -154,6 +154,7 @@
     <ClCompile Include="CommonTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="boost_test.hpp" />
     <ClInclude Include="priority_queue_test.hpp" />
     <ClInclude Include="stl_header.h" />
     <ClInclude Include="MyVector.h" />
@@ -163,12 +164,12 @@
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\AlgorithmTest\packages\boost.1.72.0.0\build\boost.targets" Condition="Exists('..\AlgorithmTest\packages\boost.1.72.0.0\build\boost.targets')" />
+    <Import Project="..\AlgorithmTest\packages\boost.1.66.0.0\build\native\boost.targets" Condition="Exists('..\AlgorithmTest\packages\boost.1.66.0.0\build\native\boost.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\AlgorithmTest\packages\boost.1.72.0.0\build\boost.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\AlgorithmTest\packages\boost.1.72.0.0\build\boost.targets'))" />
+    <Error Condition="!Exists('..\AlgorithmTest\packages\boost.1.66.0.0\build\native\boost.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\AlgorithmTest\packages\boost.1.66.0.0\build\native\boost.targets'))" />
   </Target>
 </Project>
