@@ -2,12 +2,11 @@
 //
 
 #include "pch.h"
-#include "policy_test.hpp"
-#include <iostream>
+#include "SFINAE.hpp"	
 
-using namespace policy_test;
+using namespace std;
 
 int main()
 {
-	TestCase();
+	TestCase2();
 }

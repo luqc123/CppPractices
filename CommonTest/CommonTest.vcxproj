@@ -91,6 +91,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <EnableModules>true</EnableModules>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -158,6 +160,8 @@
     <ClInclude Include="priority_queue_test.hpp" />
     <ClInclude Include="stl_header.h" />
     <ClInclude Include="MyVector.h" />
+    <ClInclude Include="traits1.hpp" />
+    <ClInclude Include="tuple_test.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

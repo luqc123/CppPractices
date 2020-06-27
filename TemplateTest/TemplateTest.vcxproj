@@ -91,6 +91,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -160,13 +161,29 @@
     <ClCompile Include="TemplateTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="accumulate.hpp" />
+    <ClInclude Include="addspace.hpp" />
+    <ClInclude Include="arrays.hpp" />
     <ClInclude Include="basic.h" />
+    <ClInclude Include="boolstring.hpp" />
+    <ClInclude Include="cref.hpp" />
+    <ClInclude Include="empty_base_class_optimizaiton.hpp" />
+    <ClInclude Include="errornovel1.hpp" />
+    <ClInclude Include="errornovel2.hpp" />
     <ClInclude Include="fast_delegate.hpp" />
     <ClInclude Include="fast_delegate_build.hpp" />
+    <ClInclude Include="folderexpression.hpp" />
+    <ClInclude Include="isconstructible.hpp" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="policy.hpp" />
     <ClInclude Include="policy_test.hpp" />
+    <ClInclude Include="SFINAE.hpp" />
     <ClInclude Include="template_specialization.hpp" />
+    <ClInclude Include="tmplconstr.hpp" />
+    <ClInclude Include="traits1.hpp" />
+    <ClInclude Include="traits2.hpp" />
+    <ClInclude Include="trait_policy.hpp" />
+    <ClInclude Include="variant.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

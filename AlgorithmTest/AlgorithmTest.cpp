@@ -1,13 +1,11 @@
 ﻿// AlgorithmTest.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-#include "Smartptr.hpp"
-
+#include "tree.hpp"
 using namespace std;
+using namespace tree;
 
 int main()
 {
-	smartptr::TestCase1();
-	smartptr::TestCase2();
-	smartptr::TestCase3();
+	TestCase2();
 }
 

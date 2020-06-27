@@ -30,6 +30,10 @@ namespace common {
 		return maxSum;
 	}
 
+	int maxMultiSum(const std::vector<int>& a) {
+		int maxSum = 1,
+	}
+
 	int maxSubSum4(const std::vector<int>& a) {
 		int maxSum = 0, thisSum = 0;
 		for (int i = 0; i < a.size(); i++)
@@ -42,6 +46,8 @@ namespace common {
 		}
 		return maxSum;
 	}
+
+
 
 	int max3(int elem1, int elem2, int elem3) {
 		int maxElem = 0;

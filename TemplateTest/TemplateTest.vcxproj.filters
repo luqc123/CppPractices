@@ -13,6 +13,57 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\basics">
+      <UniqueIdentifier>{7309eeb0-4853-4574-9882-af8d9975c147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bridge">
+      <UniqueIdentifier>{85e3e70c-15a0-41d9-bce1-b3c2d8fcb409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\debugging">
+      <UniqueIdentifier>{bfa013f1-15e3-4dea-9542-4be6afda1b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\deduce">
+      <UniqueIdentifier>{6d8585f9-a4d1-44ec-9e98-4afc2816069c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\details">
+      <UniqueIdentifier>{059146c0-8e44-4677-9f6e-9174e8133a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\exprtmpl">
+      <UniqueIdentifier>{14f81b16-a422-4fc5-b145-39bd859a5288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\inherit">
+      <UniqueIdentifier>{db01876a-a117-44d9-b210-7a0731ebc885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\meta">
+      <UniqueIdentifier>{d7c05a94-3d53-47bd-bb92-d08a3fbbe53e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\names">
+      <UniqueIdentifier>{6653b7a1-6141-447c-9b0a-1c27275df08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\overload">
+      <UniqueIdentifier>{33b8f4d2-3207-4f39-8c0c-907ca7844412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\poly">
+      <UniqueIdentifier>{70ef6f6a-9b75-4569-9751-a8946059c436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\traits">
+      <UniqueIdentifier>{da94439c-d3d7-4245-b32a-d5c8df3a57f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tuples">
+      <UniqueIdentifier>{ffe0ff29-9366-4754-aecb-32a4b3f33d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\typelist">
+      <UniqueIdentifier>{e95dc9da-cf51-4846-89dc-11c40b206b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\typeoverload">
+      <UniqueIdentifier>{56c18b82-a55a-42cb-a7b8-a0bf003c4dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{4bda80c4-95e3-436d-8670-ab0e3f38a7a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\variant">
+      <UniqueIdentifier>{b67daa5d-f44b-4bba-8285-ac5b6b299bec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TemplateTest.cpp">
@@ -43,6 +94,54 @@
     </ClInclude>
     <ClInclude Include="basic.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="empty_base_class_optimizaiton.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trait_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="addspace.hpp">
+      <Filter>Header Files\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="arrays.hpp">
+      <Filter>Header Files\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="boolstring.hpp">
+      <Filter>Header Files\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="cref.hpp">
+      <Filter>Header Files\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="errornovel1.hpp">
+      <Filter>Header Files\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="errornovel2.hpp">
+      <Filter>Header Files\basics</Filter>
+    </ClInclude>
+    <ClInclude Include="tmplconstr.hpp">
+      <Filter>Header Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="isconstructible.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="traits1.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="traits2.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="accumulate.hpp">
+      <Filter>Header Files\variant</Filter>
+    </ClInclude>
+    <ClInclude Include="folderexpression.hpp">
+      <Filter>Header Files\variant</Filter>
+    </ClInclude>
+    <ClInclude Include="variant.hpp">
+      <Filter>Header Files\variant</Filter>
+    </ClInclude>
+    <ClInclude Include="SFINAE.hpp">
+      <Filter>Header Files\deduce</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

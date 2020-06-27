@@ -1,7 +1,10 @@
 #include "stl_header.h"
-#include "boost_test.hpp"
+#include "tuple_test.hpp"
+
+using namespace std;
+using namespace tuple_test;
 
 int main()
 {
-	boost_test::case1();
+	TestCase();
 }
