@@ -157,7 +157,13 @@
   <ItemGroup>
     <ClInclude Include="..\CommonTest\stl_header.h" />
     <ClInclude Include="common.hpp" />
+    <ClInclude Include="c_language_test.hpp" />
+    <ClInclude Include="graph.hpp" />
+    <ClInclude Include="interview.hpp" />
+    <ClInclude Include="MaxInSlidingWindow.hpp" />
     <ClInclude Include="MaxSubSequence.hpp" />
+    <ClInclude Include="QueueWithMax.hpp" />
+    <ClInclude Include="ReverseWordInSetence.hpp" />
     <ClInclude Include="Smartptr.hpp" />
     <ClInclude Include="tree.hpp" />
   </ItemGroup>

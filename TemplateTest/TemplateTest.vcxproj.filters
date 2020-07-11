@@ -143,6 +143,18 @@
     <ClInclude Include="SFINAE.hpp">
       <Filter>Header Files\deduce</Filter>
     </ClInclude>
+    <ClInclude Include="meta_test.hpp">
+      <Filter>Header Files\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="tuple0.hpp">
+      <Filter>Header Files\tuples</Filter>
+    </ClInclude>
+    <ClInclude Include="duo.hpp">
+      <Filter>Header Files\tuples</Filter>
+    </ClInclude>
+    <ClInclude Include="tuple1.hpp">
+      <Filter>Header Files\tuples</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

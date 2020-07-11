@@ -1,11 +1,13 @@
 ﻿// AlgorithmTest.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-#include "tree.hpp"
+#include <deque>
+#include "ReverseWordInSetence.hpp"
+#include <cstdio>
+#include <iostream>
+
 using namespace std;
-using namespace tree;
 
 int main()
 {
-	TestCase2();
+	Test1();
 }
-

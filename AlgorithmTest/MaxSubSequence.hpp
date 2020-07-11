@@ -31,7 +31,6 @@ namespace common {
 	}
 
 	int maxMultiSum(const std::vector<int>& a) {
-		int maxSum = 1,
 	}
 
 	int maxSubSum4(const std::vector<int>& a) {

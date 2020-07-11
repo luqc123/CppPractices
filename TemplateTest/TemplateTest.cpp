@@ -2,11 +2,11 @@
 //
 
 #include "pch.h"
-#include "SFINAE.hpp"	
+#include "duo.hpp"
 
 using namespace std;
 
 int main()
 {
-	TestCase2();
+	TestCase();
 }
