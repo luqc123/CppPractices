@@ -163,6 +163,7 @@
     <ClInclude Include="MaxInSlidingWindow.hpp" />
     <ClInclude Include="MaxSubSequence.hpp" />
     <ClInclude Include="QueueWithMax.hpp" />
+    <ClInclude Include="ReplaceEmpty.hpp" />
     <ClInclude Include="ReverseWordInSetence.hpp" />
     <ClInclude Include="Smartptr.hpp" />
     <ClInclude Include="tree.hpp" />
