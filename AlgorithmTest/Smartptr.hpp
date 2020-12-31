@@ -8,7 +8,7 @@ using namespace std;
 
 namespace smartptr {
 	//basic use
-	void TestCase1() {
+	void testcase1() {
 		shared_ptr<string> pMike(new string("mike"));
 		shared_ptr<string> pKaka(new string("kaka"));
 		shared_ptr<string> pManPeng = make_shared<string>("ManPeng");
@@ -40,7 +40,7 @@ namespace smartptr {
 	}
 
     //basic deleter
-	void TestCase2() {
+	void testcase2() {
 
 		int times = 0;
 		shared_ptr<string> pMike(new string("nico"), [&times](string* p) {
@@ -54,7 +54,7 @@ namespace smartptr {
 	}
 
     //multi deleter for shared_ptr unique_ptr
-	void TestCase3() {
+	void testcase3() {
 		shared_ptr<int> p(new int[10], [](int* p) {
 			delete[] p;
 			});

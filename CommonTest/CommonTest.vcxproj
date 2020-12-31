@@ -153,14 +153,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CommonTest.cpp" />
+    <ClCompile Include="common_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="boost_test.hpp" />
     <ClInclude Include="priority_queue_test.hpp" />
     <ClInclude Include="stl_header.h" />
-    <ClInclude Include="MyVector.h" />
-    <ClInclude Include="traits1.hpp" />
+    <ClInclude Include="my_vector.h" />
+    <ClInclude Include="traits_test.hpp" />
     <ClInclude Include="tuple_test.hpp" />
   </ItemGroup>
   <ItemGroup>

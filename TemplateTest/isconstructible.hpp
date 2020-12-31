@@ -8,7 +8,7 @@ public:
 	virtual ~C() = default; //makes C notrivial
 };
 
-void TestCase() {
+void testcase() {
 	using namespace std;
 	cout << boolalpha <<  is_default_constructible_v<C> << "\n";
 	cout << boolalpha << is_trivially_default_constructible_v<C> << endl;

@@ -4,7 +4,7 @@
 #include <map>
 #include <algorithm>	
 
-void TestCase() {
+void testcase() {
 	std::map<std::string, double> coll;
 	//error
 	//auto pos = std::find_if(coll.begin(), coll.end(),

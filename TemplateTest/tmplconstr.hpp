@@ -21,7 +21,7 @@ public:
 	}
 };
 
-void TestCase() {
+void testcase() {
 	C x;
 	C x2{ x };
 	C x3{ move(x) };

@@ -6,6 +6,6 @@ decltype(auto) difference(T ... args) {
 	return (... - args);
 }
 
-void TestCase() {
+void testcase() {
 	std::cout << difference(5, 2, 1) << "\n";
 }

@@ -4,7 +4,7 @@
 using namespace std;
 
 namespace tuple_test {
-	void TestCase() {
+	void testcase1() {
 		auto t = make_tuple<int, int, int>(1, 2, 3);
 		cout << get<0>(t) << endl;
 		cout << get<1>(t) << endl;

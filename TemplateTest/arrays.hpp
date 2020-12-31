@@ -56,7 +56,7 @@ void foo(int a1[7],
 	MyClass<decltype(x3)>::print(); //using MyClass<T(&)[]>
 }
 
-void TestCase() {
+void testcase() {
 	int a[42];
 	MyClass<decltype(a)>::print();
 

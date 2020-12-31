@@ -5,8 +5,9 @@
 #include "duo.hpp"
 
 using namespace std;
+using namespace duo;
 
 int main()
 {
-	TestCase();
+	testcase1();
 }

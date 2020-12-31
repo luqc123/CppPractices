@@ -6,5 +6,5 @@ using namespace tuple_test;
 
 int main()
 {
-	TestCase();
+	testcase1();
 }

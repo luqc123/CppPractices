@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 namespace c_language_test {
-	void TestCase() {
+	void testcase() {
 		int c;
 		c = getchar();
 		while (c != EOF) {
@@ -12,7 +12,7 @@ namespace c_language_test {
 	}
 
 	//count lines in input
-	void TestCase2() {
+	void testcase2() {
 		int c, nl;
 		nl = 0;
 		while (c = getchar() != EOF) {

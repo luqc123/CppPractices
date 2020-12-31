@@ -11,7 +11,7 @@ namespace boost_test {
 	typedef decltype(&f) f_type;
 	typedef decltype(&g) g_type;
 
-	void case1() {
+	void testcase1() {
 		std::cout << bind(f, 1, 2)() << std::endl;
 		std::cout << bind(g, 1, 2, 3)() << std::endl;
 	}

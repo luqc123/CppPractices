@@ -2,7 +2,7 @@
 #include "stl_header.h"
 
 namespace priority_queue_test {
-	void TestCase() {
+	void testcase() {
 		using namespace std;
 		int ia[9] = { 0,1,2,3,4,8,5,3,5 };
 		priority_queue<int> ipq(ia, ia + 9);

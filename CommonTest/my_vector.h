@@ -1,7 +1,7 @@
 #ifndef  MYVECTOR_H
 #define  MYVECTOR_H
 
-namespace myvector {
+namespace my_vector {
 	template <class T>
 	class vector {
 	public:

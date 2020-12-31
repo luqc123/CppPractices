@@ -67,7 +67,7 @@ std::string operator"" s(const char* p, size_t n) {
 	return std::string{ p,n };
 }
 
-void TestCase() {
+void testcase() {
 	Quantity<M> x{ 10.5 };
 	Quantity<S> y{ 2 };
 	//Quantity<MpS> s = 7;

@@ -11,7 +11,7 @@ using namespace std;
 
 namespace policy_test {
 
-void TestCase() {
+void testcase() {
 	typedef WidgetManager1<OpNewCreator<Widget>> MyManager1;
 	typedef WidgetManager2<OpNewCreator> MyManager2;
 	typedef WidgetManager3<> MyManager3;

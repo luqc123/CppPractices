@@ -15,31 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CommonTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="stl_header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="priority_queue_test.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MyVector.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="boost_test.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="traits1.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="tuple_test.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="my_vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="traits_test.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

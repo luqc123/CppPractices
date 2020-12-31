@@ -7,7 +7,7 @@
 using namespace std;
 
 namespace tree {
-	void TestCase1() {
+	void testcase1() {
 		array<int, 10> a10 = { 1,2,3,4,5,6,7,8,9,10 };
 		array<int, 10> b10 = { 1,2,3,4,5,6,7,8,9,10 };
 		//error
@@ -23,7 +23,7 @@ namespace tree {
 		cout << "after print n:" << n <<  endl;
 	}
 
-	void TestCase2() {
+	void testcase2() {
 		f(4);
 	}
 }

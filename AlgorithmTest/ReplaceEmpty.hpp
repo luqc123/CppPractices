@@ -17,8 +17,4 @@ void ReplaceSpace(char string[],int length) {
 		++noneSpaceNum;
 		++pBegin;
 	}
-	int totalLength > length 
-}
-
-void Test() {
 }

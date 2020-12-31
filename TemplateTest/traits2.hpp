@@ -2,17 +2,19 @@
 #include <type_traits>	
 #include <iostream>	
 
-void TestCase() {
-	using namespace std;
-	cout << boolalpha;
+namespace traits2 {
 
-	using MyType = int;
-	cout << is_const<MyType>::value << endl;
-	using VT = is_const<MyType>::value_type;
-	using T = is_const<MyType>::type;
+	void testcase() {
+		using namespace std;
+		cout << boolalpha;
 
-	cout << is_same_v<VT, bool> << endl;
-	cout << is_same<T, integral_constant<bool, false>>::value
-		<< endl;
+		using MyType = int;
+		cout << is_const<MyType>::value << endl;
+		using VT = is_const<MyType>::value_type;
+		using T = is_const<MyType>::type;
 
+		cout << is_same_v<VT, bool> << endl;
+		cout << is_same<T, integral_constant<bool, false>>::value
+			<< endl;
+	}
 }

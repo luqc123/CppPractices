@@ -60,7 +60,7 @@ namespace mygraph {
 		list<Vertex> edge;
 	};
 
-	void TestCase() {
+	void testcase() {
 		Color white = Color::White;
 		Color gray = Color::Gray;
 		Color black = Color::Black;

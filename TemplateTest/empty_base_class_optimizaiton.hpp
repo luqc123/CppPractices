@@ -10,7 +10,7 @@ namespace ebco {
 	class EmptyThree : public EmptyTwo {};
 	class NoEmpty : public Empty,public EmptyTwo {};
 
-	void TestCase() {
+	void testcase() {
 		std::cout << "sizeof(Empty):" << sizeof(Empty) << std::endl;
 		std::cout << "sizeof(EmptyTwo):" << sizeof(EmptyTwo) << std::endl;
 		std::cout << "sizeof(EmptyThree):" << sizeof(EmptyThree) << std::endl;

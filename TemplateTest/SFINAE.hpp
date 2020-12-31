@@ -30,7 +30,7 @@ auto ffff(T t1, T t2)->decltype(t1 + t2){}
 XX ffff(Y, Y){
 	return XX();
 }
-void TestCase() {
+void testcase() {
 	//f<A>(0);
 	//f<B>(0);
 	//g<C>(0);
@@ -58,7 +58,7 @@ auto test(C c, F f) ->decltype((void)(c->*f)()) {
 
 struct Test { void f() {}; };
 
-void TestCase2() {
+void testcase2() {
 	Test t;
 	test(t, &Test::f);
 	test(&t, &Test::f);
