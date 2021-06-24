@@ -4,10 +4,10 @@
 #include <cstdio>
 #include <iostream>
 #include <string>
-#include "ReplaceEmpty.hpp"
 
 using namespace std;
 
 int main()
 {
+
 }

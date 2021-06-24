@@ -18,49 +18,46 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AlgorithmTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="common.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MaxSubSequence.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Smartptr.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="tree.hpp">
+    <ClInclude Include="max_subsequence.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\CommonTest\stl_header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="graph.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="c_language_test.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="interview.hpp">
       <Filter>Header Files\Utilities</Filter>
     </ClInclude>
-    <ClInclude Include="ReverseWordInSetence.hpp">
+    <ClInclude Include="reverse_word.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MaxInSlidingWindow.hpp">
+    <ClInclude Include="max_in_sliding_window.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="QueueWithMax.hpp">
+    <ClInclude Include="queue_with_max.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ReplaceEmpty.hpp">
+    <ClInclude Include="replace_empty.hpp">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generate_test_data.hpp">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.hpp">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="common.hpp">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.hpp">
+      <Filter>Header Files\Utilities</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="algorithm_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

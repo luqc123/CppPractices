@@ -27,10 +27,10 @@
     <ClInclude Include="tuple_test.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="my_vector.h">
+    <ClInclude Include="traits_test.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="traits_test.hpp">
+    <ClInclude Include="..\AlgorithmTest\smartptr_test.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
