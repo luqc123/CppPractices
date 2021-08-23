@@ -37,6 +37,20 @@ namespace common {
 	}
 
 	/*
+	generate number int between min and max
+	*/
+	template<typename Type,int T>
+	void GenerateNInts(array<Type,T>& arr, int min, int max)
+	{
+		assert(T > 0);
+		default_random_engine dre(1);
+		uniform_int_distribution<int> di(min, max);
+		for (int i = 0; i < T; i++)
+			arr.at(i) = di(dre);
+	}
+
+
+	/*
 	delete same number in vector
 	*/
 	void DeleteRepeatElements(vector<int>& ivec)

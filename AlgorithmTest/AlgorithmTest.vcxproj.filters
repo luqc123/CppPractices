@@ -24,9 +24,6 @@
     <ClInclude Include="..\CommonTest\stl_header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="interview.hpp">
-      <Filter>Header Files\Utilities</Filter>
-    </ClInclude>
     <ClInclude Include="reverse_word.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -51,6 +48,15 @@
     <ClInclude Include="tree.hpp">
       <Filter>Header Files\Utilities</Filter>
     </ClInclude>
+    <ClInclude Include="find_pair_in_two_arrays.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="two_sum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="longest_substring_without_repeating.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -58,6 +64,9 @@
   <ItemGroup>
     <ClCompile Include="algorithm_test.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="add_two_numbers.hpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
