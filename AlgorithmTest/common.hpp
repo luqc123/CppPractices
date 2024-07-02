@@ -39,8 +39,8 @@ namespace common {
 	/*
 	generate number int between min and max
 	*/
-	template<typename Type,int T>
-	void GenerateNInts(array<Type,T>& arr, int min, int max)
+	template<typename Type, int T>
+	void GenerateNInts(array<Type, T>& arr, int min, int max)
 	{
 		assert(T > 0);
 		default_random_engine dre(1);
@@ -49,18 +49,10 @@ namespace common {
 			arr.at(i) = di(dre);
 	}
 
-
 	/*
-	delete same number in vector
+	* check vector is distinct or not
 	*/
-	void DeleteRepeatElements(vector<int>& ivec)
-	{
-		for (auto itr = ivec.begin(); itr != ivec.end(); itr++)
-		{
-		}
-	}
-
-	bool IsDinstinct(vector<int>& ivec)
+	bool IsDistinct(vector<int>& ivec)
 	{
 		set<int> coll;
 		for (auto i : ivec)
@@ -73,7 +65,7 @@ namespace common {
 
 	int gcd(int m, int n) {
 		int rem = 0;
-		while (n!=0)
+		while (n != 0)
 		{
 			rem = m % n;
 			m = n;
@@ -95,7 +87,7 @@ namespace common {
 
 	double probRealPrime(int n) {
 		int rel = 0, tot = 0;
-		for(int i=1;i<=n;i++)
+		for (int i = 1; i <= n; i++)
 			for (int j = i + 1; j <= n; j++) {
 				tot++;
 				if (gcd(i, j) == 1)

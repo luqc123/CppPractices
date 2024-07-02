@@ -9,7 +9,7 @@ that xi¡Ê X and yi¡Ê Y where xi+yi=value
 
 using namespace std;
 
-namespace algorithm_array
+namespace array_algorithm
 {
 	void testcase()
 	{
